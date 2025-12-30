@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network Security Configuration for Laitoxx Android Security Toolkit
+
+    Security Policy:
+    - Block all cleartext (HTTP) traffic by default
+    - Only allow HTTPS connections in production
+    - Debug builds can use localhost for development/testing
+
+    OWASP Mobile Top 10 - M3: Insecure Communication Protection
+-->
+<network-security-config>
+    <!-- Base configuration: HTTPS only, no cleartext traffic -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Trust system certificate authorities -->
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Debug-only overrides for local development -->
+    <debug-overrides>
+        <domain-config cleartextTrafficPermitted="true">
+            <!-- Allow HTTP for localhost testing in debug builds -->
+            <domain includeSubdomains="true">localhost</domain>
+            <domain includeSubdomains="true">127.0.0.1</domain>
+            <domain includeSubdomains="true">10.0.2.2</domain> <!-- Android emulator host -->
+            <domain includeSubdomains="true">10.0.3.2</domain> <!-- Genymotion emulator -->
+        </domain-config>
+    </debug-overrides>
+</network-security-config>

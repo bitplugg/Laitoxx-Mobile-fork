@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(60,10,10);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(20,5,5);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGradient)"/>
+
+  <!-- Outer circle -->
+  <circle cx="256" cy="256" r="215"
+          fill="none" stroke="rgb(220,50,50)" stroke-width="16"/>
+
+  <!-- Pentagram lines -->
+  <line x1="460.48" y1="189.56" x2="129.63" y2="429.94" stroke="rgb(220,50,50)" stroke-width="16"/>
+  <line x1="382.37" y1="429.94" x2="51.52" y2="189.56" stroke="rgb(220,50,50)" stroke-width="16"/>
+  <line x1="129.63" y1="429.94" x2="256.00" y2="41.00" stroke="rgb(220,50,50)" stroke-width="16"/>
+  <line x1="51.52" y1="189.56" x2="460.48" y2="189.56" stroke="rgb(220,50,50)" stroke-width="16"/>
+  <line x1="256.00" y1="41.00" x2="382.37" y2="429.94" stroke="rgb(220,50,50)" stroke-width="16"/>
+  <line x1="334.11" y1="281.38" x2="256.00" y2="338.13" stroke="rgb(220,50,50)" stroke-width="8"/>
+  <line x1="256.00" y1="338.13" x2="177.89" y2="281.38" stroke="rgb(220,50,50)" stroke-width="8"/>
+  <line x1="177.89" y1="281.38" x2="207.73" y2="189.56" stroke="rgb(220,50,50)" stroke-width="8"/>
+  <line x1="207.73" y1="189.56" x2="304.27" y2="189.56" stroke="rgb(220,50,50)" stroke-width="8"/>
+  <line x1="304.27" y1="189.56" x2="334.11" y2="281.38" stroke="rgb(220,50,50)" stroke-width="8"/>
+
+  <!-- LTX Text -->
+  <text x="256" y="276"
+        font-family="Arial, sans-serif"
+        font-size="61"
+        font-weight="bold"
+        fill="rgb(220,50,50)"
+        text-anchor="middle">LTX</text>
+</svg>

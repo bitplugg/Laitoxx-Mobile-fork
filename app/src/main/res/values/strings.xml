@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LAITOXX</string>
+    <string name="home">Home</string>
+    <string name="tools">Tools</string>
+    <string name="settings">Settings</string>
+
+    <!-- Tool Categories -->
+    <string name="osint_tools">OSINT Tools</string>
+    <string name="network_tools">Network Tools</string>
+    <string name="web_security">Web Security</string>
+    <string name="utilities">Utilities</string>
+
+    <!-- OSINT Tools -->
+    <string name="ip_info">IP Information</string>
+    <string name="subdomain_finder">Subdomain Finder</string>
+    <string name="email_validator">Email Validator</string>
+    <string name="phone_lookup">Phone Lookup</string>
+    <string name="whois_lookup">WHOIS Lookup</string>
+    <string name="user_search">User Search</string>
+
+    <!-- Network Tools -->
+    <string name="port_scanner">Port Scanner</string>
+    <string name="dns_lookup">DNS Lookup</string>
+    <string name="traceroute">Traceroute</string>
+    <string name="ping">Ping</string>
+    <string name="network_info">Network Info</string>
+
+    <!-- Web Security -->
+    <string name="sql_scanner">SQL Scanner</string>
+    <string name="xss_scanner">XSS Scanner</string>
+    <string name="admin_finder">Admin Finder</string>
+    <string name="url_checker">URL Checker</string>
+    <string name="ssl_checker">SSL Checker</string>
+
+    <!-- Utilities -->
+    <string name="text_transformer">Text Transformer</string>
+    <string name="hash_generator">Hash Generator</string>
+    <string name="base64_encoder">Base64 Encoder</string>
+    <string name="password_generator">Password Generator</string>
+
+    <!-- Common -->
+    <string name="enter_target">Enter target</string>
+    <string name="scan">Scan</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="disclaimer_title">Educational Purpose Only</string>
+    <string name="disclaimer_message">This tool is for educational purposes and authorized security testing only. Unauthorized access to computer systems is illegal.</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+</resources>
