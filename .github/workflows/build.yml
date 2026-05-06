@@ -26,9 +26,8 @@ jobs:
         with:
           packages: 'platforms;android-34'
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
+      # Шаг `chmod +x gradlew` удалён – он падал, так как в репозитории отсутствует Gradle Wrapper.
+      # Экшен `setup-gradle` автоматически сгенерирует Wrapper и настроит права на выполнение.
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
